@@ -1,0 +1,18 @@
+// Name: Ayush Kumar
+// Roll No: 25103153
+// ID: BCS2025535
+// Assignment No: 10
+// Task No: 01
+
+class Main {
+    public static void main(String[] args) {
+        int day = 3;
+
+        switch (day) {
+            case 1: System.out.println("Monday"); break;
+            case 2: System.out.println("Tuesday"); break;
+            case 3: System.out.println("Wednesday"); break;
+            default: System.out.println("Invalid day");
+        }
+    }
+}
