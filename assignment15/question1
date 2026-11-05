@@ -1,0 +1,16 @@
+// Name: Ayush Kumar
+// Id: bcs2025535
+// Roll no.: 2510303153
+// Assignment No: Experiment 15 - StringBuilder Methods[cite: 31]
+
+// ==========================================
+// Task 1 - Append text and display its length[cite: 31]
+// ==========================================
+class MainTask1 {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Hello");
+        sb.append("World");
+        System.out.println(sb);
+        System.out.println("Length: " + sb.length());
+    }
+}
