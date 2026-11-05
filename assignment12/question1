@@ -1,0 +1,67 @@
+// Name: Ayush Kumar
+// Id: bcs2025535
+// Roll no.: 2510303153
+// Assignment No: Experiment 12 - Insertion Sort
+
+// ==========================================
+// Task 1 - Sort an array using insertion sort[cite: 25]
+// ==========================================
+import java.util.Arrays;
+
+class MainTask1 {
+    public static void main(String[] args) {
+        int[] a = {7, 3, 5, 1};
+        for (int i = 1; i < a.length; i++) {
+            int key = a[i];
+            int j = i - 1;
+            while (j >= 0 && a[j] > key) {
+                a[j + 1] = a[j];
+                j--;
+            }
+            a[j + 1] = key;
+        }
+        System.out.println("Sorted: " + Arrays.toString(a));
+    }
+}
+
+
+// ==========================================
+// Task 2 - Sort a second array using insertion sort[cite: 25]
+// ==========================================
+class MainTask2 {
+    public static void main(String[] args) {
+        int[] a = {14, 3, 9, 21, 6};
+        for (int i = 1; i < a.length; i++) {
+            int key = a[i];
+            int j = i - 1;
+            while (j >= 0 && a[j] > key) {
+                a[j + 1] = a[j];
+                j--;
+            }
+            a[j + 1] = key;
+        }
+        System.out.println("Sorted: " + Arrays.toString(a));
+    }
+}
+
+
+// ==========================================
+// Task 3 - Count shifts during insertion sort[cite: 26]
+// ==========================================
+class MainTask3 {
+    public static void main(String[] args) {
+        int[] a = {6, 5, 4, 3, 2, 1};
+        int shifts = 0;
+        for (int i = 1; i < a.length; i++) {
+            int key = a[i];
+            int j = i - 1;
+            while (j >= 0 && a[j] > key) {
+                a[j + 1] = a[j];
+                j--;
+                shifts++;
+            }
+            a[j + 1] = key;
+        }
+        System.out.println("Shifts: " + shifts);
+    }
+}
