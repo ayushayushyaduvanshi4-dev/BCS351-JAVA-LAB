@@ -1,0 +1,17 @@
+// Name: Ayush Kumar
+// Roll No: 25103153
+// ID: BCS2025535
+// Assignment No: 01
+// Task No: 03
+
+class Main {
+    public static void main(String[] args) {
+        int a = 17, b = 5;
+
+        System.out.println("Sum: " + (a + b));
+        System.out.println("Difference: " + (a - b));
+        System.out.println("Product: " + (a * b));
+        System.out.println("Quotient: " + (a / b));
+        System.out.println("Remainder: " + (a % b));
+    }
+}
