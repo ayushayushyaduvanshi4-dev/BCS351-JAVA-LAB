@@ -1,0 +1,21 @@
+// Name: Ayush Kumar
+// Id: bcs2025535
+// Roll no.: 2510303153
+// Assignment No: Experiment 14 - Characters: Counting and Positions[cite: 29, 30]
+
+// ==========================================
+// Task 1 - Count vowels in a string[cite: 29]
+// ==========================================
+class MainTask1 {
+    public static void main(String[] args) {
+        String s = "programming";
+        int count = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                count++;
+            }
+        }
+        System.out.println("Vowels: " + count);
+    }
+}
