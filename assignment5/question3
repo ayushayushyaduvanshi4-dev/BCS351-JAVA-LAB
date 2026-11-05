@@ -1,0 +1,18 @@
+// Name: Ayush Kumar
+// Roll No: 25103153
+// ID: BCS2025535
+// Assignment No: 05
+// Task No: 03
+
+class Main {
+    public static void main(String[] args) {
+        int[] arr = {5, 12, 2, 14, 7};
+        int count = 0;
+
+        for (int x : arr)
+            if (x > 10)
+                count++;
+
+        System.out.println("Count greater than 10: " + count);
+    }
+}
