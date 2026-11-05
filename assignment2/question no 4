@@ -1,0 +1,16 @@
+// Name: Ayush Kumar
+// Roll No: 25103153
+// ID: BCS2025535
+// Assignment No: 02
+// Task No: 04
+
+class Main {
+    public static void main(String[] args) {
+        int fact = 1;
+
+        for (int i = 1; i <= 5; i++)
+            fact *= i;
+
+        System.out.println("Factorial of 5 is " + fact);
+    }
+}
